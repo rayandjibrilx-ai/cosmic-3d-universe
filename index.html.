@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DJIDRA | Cosmic Universe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loading">ENTERING THE UNIVERSE...</div>
+
+  <header>
+    <h1>DJIDRA <span>COSMOS</span></h1>
+    <p>YOUR UNIVERSE. YOUR EXPLORATION.</p>
+  </header>
+
+  <div id="info">
+    <h2 id="planet-name">COSMIC EXPLORER</h2>
+    <p id="planet-description">
+      Explore a living 3D universe. Click a planet to discover it.
+    </p>
+  </div>
+
+  <div id="controls">
+    DRAG: LOOK AROUND · SCROLL: MOVE · CLICK: EXPLORE
+  </div>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js"
+    }
+  }
+  </script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
